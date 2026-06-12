@@ -1,31 +1,110 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-5xl font-bold mb-4">
-        Chaitra Thimmaiah
-      </h1>
+    <main className="min-h-screen">
 
-      <p className="text-2xl mb-2">
-        Quality Engineering Lead
-      </p>
+      <section className="flex flex-col items-center justify-center text-center py-24 px-6">
 
-      <p className="text-lg mb-8 text-center">
-        AI Solutions | Data Quality | Cloud Automation
-      </p>
+        <Image
+          src="/images/profile.jpg"
+          alt="Chaitra Thimmaiah"
+          width={180}
+          height={180}
+          className="rounded-full shadow-lg mb-6"
+        />
 
-      <div className="flex gap-4">
-        <button className="border rounded px-4 py-2">
-          Resume
-        </button>
+        <h1 className="text-5xl font-bold mb-4">
+          Chaitra Thimmaiah
+        </h1>
 
-        <button className="border rounded px-4 py-2">
-          Projects
-        </button>
+        <p className="text-xl text-gray-600 mb-4">
+          AI & Data Quality Engineering Lead | AI Solutions | Product Engineering
+        </p>
 
-        <button className="border rounded px-4 py-2">
-          Blog
-        </button>
-      </div>
+      </section>
+
+      {/* CONTACT */}
+<section className="py-16 px-6 border-t">
+  <div className="max-w-4xl mx-auto text-center">
+
+    <h2 className="text-3xl font-bold mb-4">
+      Let's Connect
+    </h2>
+
+    <p className="text-gray-600 mb-8">
+      Open to AI Solutions Engineering, Customer Engineering,
+      Product Engineering, Data Quality Leadership, and AI Consulting opportunities.
+    </p>
+
+    <div className="flex flex-wrap justify-center gap-4">
+
+      <a
+        href="mailto:t.chaitra3@gmail.com"
+        className="px-6 py-3 border rounded-lg hover:shadow-lg transition"
+      >
+        📧 Email Me
+      </a>
+
+      <a
+        href="https://linkedin.com/in/chaitra-thimmaiah-2666b5218"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-3 border rounded-lg hover:shadow-lg transition"
+      >
+        💼 LinkedIn
+      </a>
+
+      <a
+        href="https://github.com/chaitrathimmaiah359"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-3 border rounded-lg hover:shadow-lg transition"
+      >
+        💻 GitHub
+      </a>
+
+      <a
+        href="/resume/Chaitra_Thimmaiah_Resume.pdf"
+        download
+        className="px-6 py-3 border rounded-lg hover:shadow-lg transition"
+      >
+      📄 Download Resume
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+    {/* QUICK STATS */}
+<section className="max-w-5xl mx-auto px-6 pb-16">
+  <div className="grid md:grid-cols-4 gap-4">
+
+    <div className="border rounded-xl p-6 text-center hover:shadow-lg transition">
+      <h3 className="text-3xl font-bold">10+</h3>
+      <p className="text-gray-600">Years Experience</p>
+    </div>
+
+    <div className="border rounded-xl p-6 text-center hover:shadow-lg transition">
+      <h3 className="text-3xl font-bold">AI</h3>
+      <p className="text-gray-600">Solutions & Agents</p>
+    </div>
+
+    <div className="border rounded-xl p-6 text-center hover:shadow-lg transition">
+      <h3 className="text-3xl font-bold">20+</h3>
+      <p className="text-gray-600">Projects Delivered</p>
+    </div>
+
+    <div className="border rounded-xl p-6 text-center hover:shadow-lg transition">
+      <h3 className="text-3xl font-bold">Global</h3>
+      <p className="text-gray-600">Customer Impact</p>
+    </div>
+
+  </div>
+</section>
+
     </main>
   );
+  
 }
