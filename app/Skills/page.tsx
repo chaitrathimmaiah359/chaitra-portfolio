@@ -38,11 +38,13 @@ export default function Skills() {
         "Data Governance",
         "Data Mesh",
         "Data Lake",
-        "Soda Core",
+        "Soda Core Checks",
         "Great Expectations (GX)",
         "Metadata Management",
         "Data Validation",
         "Marketing Analytics",
+        "Secoda",
+        "SQL",
       ],
     },
     {
@@ -66,6 +68,7 @@ export default function Skills() {
         "Pipeline Orchestration",
         "ETL Workflows",
         "Data Pipeline Monitoring",
+        "DBT workflow",
       ],
     },
     {
@@ -89,6 +92,7 @@ export default function Skills() {
         "Release Metrics",
         "Performance Analysis",
         "Operational Excellence",
+        "SWOT Analysis",
       ],
     },
     {

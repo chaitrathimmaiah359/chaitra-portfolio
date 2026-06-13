@@ -20,12 +20,17 @@ export default function Experience() {
 
           <div className="grid grid-cols-2 p-4 border-b">
             <div>2015 – 2016</div>
-            <div>Associate Product Engineer – Bosch</div>
+            <div>Associate Product Engineer – Robert Bosch and Engineering solutions</div>
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
-            <div>2016 – 2021</div>
-            <div>Product Software Responsible (PSR) – Bosch</div>
+            <div>2016 – 2018</div>
+            <div>Product Software Responsible (PSR) – Robert Bosch and Engineering solutions</div>
+          </div>
+
+          <div className="grid grid-cols-2 p-4 border-b">
+            <div>2018 – 2021</div>
+            <div>Senior Product Engineer – Robert Bosch and Engineering solutions</div>
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
@@ -35,7 +40,7 @@ export default function Experience() {
 
           <div className="grid grid-cols-2 p-4 border-b">
             <div>2023 – 2025</div>
-            <div>Data Automation Lead – Omnicom Media Solutions</div>
+            <div>Data Automation - Subject Matter Expert – Omnicom Media Solutions</div>
           </div>
 
           <div className="grid grid-cols-2 p-4">
@@ -67,7 +72,15 @@ export default function Experience() {
               <li>Introduced Generative AI validation checks for campaign KPI monitoring and campaign management workflows.</li>
               <li>Evaluated emerging AI frameworks and engineering solutions.</li>
               <li>Mentored engineers and graduate trainees on AI adoption and automation best practices.</li>
+              <li> Worked on Integrated testing at every stage of the product. API testing, UI testing,
+                Smoke testing, Regression testing, Performance testing, Load testing, Security testing, and User 
+                acceptance testing.
+              </li>
+              <li> Reviewed and improved existing automation frameworks, test scripts, and testing processes to 
+              enhance efficiency and effectiveness.
+              </li>
               <li>Participated in recruitment, onboarding, documentation, and training initiatives.</li>
+              <li>Debugged and resolved issues in automation scripts and CI/CD pipelines</li>
             </ul>
           </div>
 
@@ -86,6 +99,9 @@ export default function Experience() {
               <li>Developed executive dashboards and reporting solutions using Power BI.</li>
               <li>Supported DORA metrics implementation and engineering performance reporting.</li>
               <li>Worked with AWS Airflow orchestration and Secoda Data Mesh initiatives.</li>
+              <li>Collaborated with cross-functional teams to drive data automation initiatives.</li>
+              <li>Worked on creating client dashboards for gold layer data and calcuted
+                metrics like CPM and other client KPIs</li>
             </ul>
           </div>
 
@@ -126,13 +142,13 @@ export default function Experience() {
               <li>Started my engineering career within the Thermotechnology division.</li>
               <li>Worked on embedded systems and software-assisted product configuration.</li>
               <li>Supported product testing, validation, engineering documentation, and release activities.</li>
-              <li>Participated in software line assembly and quality assurance initiatives.</li>
+              <li>Participated in software line assembly and appliance automation initiatives.</li>
             </ul>
           </div>
 
           <div className="border rounded-xl p-6 hover:shadow-xl transition-all">
             <h3 className="text-xl font-semibold mb-4">
-              Product Software Responsible (PSR) (2016 – 2021)
+              Product Software Responsible (PSR) (2016 – 2018)
             </h3>
 
             <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -145,6 +161,28 @@ export default function Experience() {
               <li>Worked on unit testing, integration testing, regression testing, and product qualification.</li>
               <li>Participated in customer visits, product demonstrations, and solution discussions.</li>
               <li>Collaborated with global engineering teams to ensure successful product delivery.</li>
+            </ul>
+          </div>
+
+          <div className="border rounded-xl p-6 hover:shadow-xl transition-all">
+            <h3 className="text-xl font-semibold mb-4">
+              Senior Product Engineer (2018 – 2021)
+            </h3>
+
+            <ul className="list-disc ml-5 space-y-2 text-gray-700">
+             <li>Designed and supported product configuration workflows through the SiTT engineering platform.</li>
+             <li>Led configuration, validation, and integration activities for DCM software components.</li>
+             <li>Verified embedded communication protocols and interface interoperability across multiple system modules.</li>
+             <li>Executed User Acceptance Testing (UAT) to ensure business and customer requirements were met prior to 
+             release.</li>
+             <li>Performed risk analysis, defect leakage tracking, and quality improvement initiatives to enhance 
+             product reliability.</li>
+             <li>Established a walking-lab environment that significantly improved integration testing efficiency and 
+              reduced validation turnaround time.</li>
+            <li>Validated end-to-end communication between products using proprietary embedded communication protocols.</li>
+            <li>Built an innovative prototype that transformed haptic sensor vibrations into digital signals, 
+              enabling advanced signal processing and future IoT applications.</li>
+              
             </ul>
           </div>
 
