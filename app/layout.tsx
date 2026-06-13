@@ -16,8 +16,9 @@ export default function RootLayout({
           <Link href="/education">Education</Link>
           <Link href="/Experience">Experience</Link>
           <Link href="/Skills">Skills</Link>
-          <Link href="/projects">Projects</Link>
+          <Link href="/projects">Projects and Prototypes </Link>
           <Link href="/blog">Tech Blog</Link>
+          <Link href="/partner">Why choose Chaitra Thimmaiah for the role?</Link>
           
         </nav>
 

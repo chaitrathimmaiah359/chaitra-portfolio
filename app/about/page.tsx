@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <main className="max-w-5xl mx-auto py-16 px-6">
@@ -53,6 +55,40 @@ export default function About() {
         meditation, and learning from different cultures and perspectives. I am
         also an animal lover and a supporter of humanitarian initiatives.
       </p>
-    </main>
+       {/* PHOTO GALLERY */}
+    <section className="mt-16">
+      <h2 className="text-3xl font-bold mb-4">
+        Gallery - Office Clicks
+      </h2>
+
+      <p className="text-gray-600 mb-8">
+        A few moments from my professional journey
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition">
+          <Image
+            src="/images/office1.jpg"
+            alt="Office Event"
+            width={800}
+            height={600}
+            className="w-full h-auto hover:scale-105 transition duration-300"
+          />
+        </div>
+
+        <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition">
+          <Image
+            src="/images/office2.jpg"
+            alt="Team Collaboration"
+            width={800}
+            height={600}
+            className="w-full h-auto hover:scale-105 transition duration-300"
+          />
+        </div>
+
+      </div>
+    </section>
+        </main>
   );
 }
