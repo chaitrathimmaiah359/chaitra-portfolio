@@ -19,18 +19,13 @@ export default function Experience() {
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
-            <div>2015 – 2016</div>
-            <div>Associate Product Engineer – Robert Bosch and Engineering solutions</div>
+            <div>2025 – 2026</div>
+            <div>Lead – AI & Data Automation – Omnicom Media Solutions</div>
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
-            <div>2016 – 2018</div>
-            <div>Product Software Responsible (PSR) – Robert Bosch and Engineering solutions</div>
-          </div>
-
-          <div className="grid grid-cols-2 p-4 border-b">
-            <div>2018 – 2021</div>
-            <div>Senior Product Engineer – Robert Bosch and Engineering solutions</div>
+            <div>2023 – 2025</div>
+            <div>Data Automation - Subject Matter Expert – Omnicom Media Solutions</div>
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
@@ -39,14 +34,21 @@ export default function Experience() {
           </div>
 
           <div className="grid grid-cols-2 p-4 border-b">
-            <div>2023 – 2025</div>
-            <div>Data Automation - Subject Matter Expert – Omnicom Media Solutions</div>
+            <div>2018 – 2021</div>
+            <div>Senior Product Engineer – Robert Bosch and Engineering solutions</div>
           </div>
 
-          <div className="grid grid-cols-2 p-4">
-            <div>2025 – 2026</div>
-            <div>Lead – AI & Data Quality – Omnicom Media Solutions</div>
+          <div className="grid grid-cols-2 p-4 border-b">
+            <div>2016 – 2018</div>
+            <div>Product Software Responsible (PSR) – Robert Bosch and Engineering solutions</div>
           </div>
+                    
+          <div className="grid grid-cols-2 p-4 border-b">
+            <div>2015 – 2016</div>
+            <div>Associate Product Engineer – Robert Bosch and Engineering solutions</div>
+          </div>
+
+
 
         </div>
       </section>
@@ -54,14 +56,14 @@ export default function Experience() {
       {/* Omnicom */}
       <section className="mb-16">
         <h2 className="text-3xl font-semibold mb-6">
-          Omnicom Media Solutions
+          Omnicom Media Group
         </h2>
 
         <div className="space-y-6">
 
           <div className="border rounded-xl p-6 hover:shadow-xl transition-all">
             <h3 className="text-xl font-semibold mb-4">
-              Lead – AI & Data Quality (2025 – 2026)
+              Lead – AI & Data Automation (2025 – 2026)
             </h3>
 
             <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -128,7 +130,7 @@ export default function Experience() {
       {/* Bosch */}
       <section>
         <h2 className="text-3xl font-semibold mb-6">
-          Bosch
+          Robert Bosch and Engineering Solutions
         </h2>
 
         <div className="space-y-6">

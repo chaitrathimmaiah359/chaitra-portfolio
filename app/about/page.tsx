@@ -11,9 +11,9 @@ export default function About() {
         Welcome to my portfolio!
         <br />
         <br />
-        I am <strong>Chaitra Thimmaiah</strong>, a Product and Quality
+        I am <strong>Chaitra Thimmaiah</strong>, Product and AI
         Engineering Lead with nearly 10 years of experience across product
-        engineering, quality assurance, automation, data quality, cloud
+        engineering, automation, data quality, cloud
         technologies, and AI-driven innovation.
         <br />
         <br />

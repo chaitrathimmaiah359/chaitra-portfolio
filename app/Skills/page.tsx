@@ -1,26 +1,39 @@
 export default function Skills() {
   const skillGroups = [
     {
-      title: "Programming & Automation",
+      title: "Programming",
       skills: [
         "Python",
         "TypeScript",
         "JavaScript",
-        "Selenium",
-        "Playwright",
-        "Pytest",
-        "API Automation",
-        "Test Automation Frameworks",
-        "Load Testing",
-        "Performance Testing",
+        "SQL"
       ],
     },
+
+     {
+      title: "Frameworks & Libraries",
+      skills: [
+        "Pytest",
+        "DeepEval",
+        "RAGAS",
+        "n8n",
+        "Selenium",
+        "Playwright",
+        "API Automation",
+        "Data Governance Frameworks",
+      ],
+    },
+
     {
-      title: "AI & Machine Learning",
+      title: "AI",
       skills: [
         "OpenAI",
         "Agentic AI",
         "Multimodal AI",
+        "DeepEval",
+        "RAGAS",
+        "n8n",
+        "Dify",
         "Prompt Engineering",
         "GitHub Copilot",
         "Mabl AI",
@@ -43,8 +56,7 @@ export default function Skills() {
         "Metadata Management",
         "Data Validation",
         "Marketing Analytics",
-        "Secoda",
-        "SQL",
+        "Secoda"
       ],
     },
     {
@@ -58,6 +70,7 @@ export default function Skills() {
         "Cloud Architecture",
         "Environment Management",
         "Infrastructure Testing",
+        "Kubernetes"
       ],
     },
     {

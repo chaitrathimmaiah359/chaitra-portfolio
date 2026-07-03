@@ -7,7 +7,7 @@ export default function Blog() {
       </h1>
 
       <p className="text-gray-700 leading-relaxed mb-10">
-        Welcome to my Tech Blog.
+        Welcome to my Tech Blog section..!
 
         <br /><br />
 
@@ -35,7 +35,7 @@ export default function Blog() {
       </p>
 
       <h2 className="text-2xl font-semibold mb-6">
-        Featured Articles
+        Top Featured Articles
       </h2>
 
       <div className="space-y-6">
@@ -64,6 +64,92 @@ export default function Blog() {
         </div>
 
       </div>
+        <br /><br />
+      <div className="space-y-8">
+
+        <div className="border rounded-xl p-6 hover:shadow-lg transition">
+
+          <h3 className="text-xl font-semibold mb-2">
+            Context Manager: The Hero of Multi-Agent AI Systems
+          </h3>
+
+          <p className="text-gray-600 mb-4">
+            As AI systems evolve from single chatbots into multi-agent ecosystems, one challenge becomes 
+            increasingly important: context management.
+          </p>
+
+          <a
+            href="https://techblog0374.wordpress.com/2026/06/22/context-manager-the-hero-of-multi-agent-ai-systems/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Read Article →
+          </a>
+
+        </div>
+
+      </div>
+      <br /><br />
+      <div className="space-y-8">
+
+        <div className="border rounded-xl p-6 hover:shadow-lg transition">
+
+          <h3 className="text-xl font-semibold mb-2">
+            Choose the Right Analytics Tool for the Right Goal
+          </h3>
+
+          <p className="text-gray-600 mb-4">
+            Are you using Power BI dashboards for every metric? If so, it may be time to evaluate whether built-in tool analytics can achieve the same goal with less effort and cost. 
+            For daily, weekly, or sprint-level reporting, simpler analytics solutions are often sufficient. In this article, 
+            I compare tool analytics and Power BI to help choose the right dashboard based on the business objective, not the hype.
+          </p>
+
+          <a
+            href="https://techblog0374.wordpress.com/2026/06/15/choose-the-right-analytics-tool-for-the-right-goal/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Read Article →
+          </a>
+
+        </div>
+
+      </div>
+
+      <br /><br />
+      <div className="space-y-8">
+
+        <div className="border rounded-xl p-6 hover:shadow-lg transition">
+
+          <h3 className="text-xl font-semibold mb-2">
+            My First Generative AI Automation using mabl
+          </h3>
+
+          <p className="text-gray-600 mb-4">
+            To evaluate if mabl solved Automation challenges
+          </p>
+
+          <a
+            href="https://techblog0374.wordpress.com/2026/02/23/my-first-generative-ai-automation-using-mabl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Read Article →
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
 
     </main>
   );

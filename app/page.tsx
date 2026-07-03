@@ -19,7 +19,11 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-600 mb-4">
-          AI & Data Quality Engineering Lead | AI Solutions | Product Engineering
+          AI & Data Automation Lead | AI Solutions | Product Engineering
+        </p>
+
+        <p className="text-xl text-gray-800 mb-4">
+          I transform business bottlenecks into AI powered engineering solutions and deploy products in production
         </p>
 
       </section>
@@ -65,7 +69,7 @@ export default function Home() {
       </a>
 
       <a
-        href="/resume/Chaitra_Thimmaiah_Resume.pdf"
+        href="/resume/ChaitraThimmaiah_AI_Lead.pdf"
         download
         className="px-6 py-3 border rounded-lg hover:shadow-lg transition"
       >
